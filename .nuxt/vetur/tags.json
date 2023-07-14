@@ -1,0 +1,20 @@
+{
+  "VButton": {
+    "description": "Auto imported from components/VButton.vue"
+  },
+  "VDropdown": {
+    "description": "Auto imported from components/VDropdown.vue"
+  },
+  "VHeader": {
+    "description": "Auto imported from components/VHeader.vue"
+  },
+  "VHero": {
+    "description": "Auto imported from components/VHero.vue"
+  },
+  "VSerialsList": {
+    "description": "Auto imported from components/VSerialsList.vue"
+  },
+  "VSlider": {
+    "description": "Auto imported from components/VSlider.vue"
+  }
+}
