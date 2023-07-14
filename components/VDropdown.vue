@@ -128,8 +128,6 @@ export default {
 
 
             &--title { 
-                // max-width: 268px;
-                // width: fit-content;
                 h2 { 
                     font-family: Krona One;
                     font-size: 32px;

@@ -64,9 +64,8 @@ export const mutations = {
     setFirstMovies(state){
         state.currentMovies = state.movies.splice(0, 6)
     },
-    setLastMovie(state, data){
+    setLastMovie(state){
         const lastMovie = state.movies.length
-        console.log(lastMovie, state.currentIndex, data);
         if(state.currentIndex + 1 == lastMovie) { 
             state.startSlice = state.lastStartSlice
             state.endSlice = state.lastEndSlice
@@ -102,7 +101,6 @@ export const mutations = {
                 state.activeMovie = data[state.currentIndex]
             }
         }
-        console.log("prev",state.currentIndex);
     },
 }
 
@@ -115,11 +113,6 @@ export const actions = {
         .catch(error => {
             throw new Error(`${error}`)
         })
-    },
-    showMore({ commit, data }) {
-        // console.log('action');
-        commit('setMovies', data)
-        commit('showMoreMovies', data);
     },
 
 }

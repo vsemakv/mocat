@@ -30,8 +30,6 @@ import { mapGetters } from 'vuex';
                 btnMore: 'movies/getBtnMore',
             }),
         },
-        mounted () {
-        },
         methods: {
             showMore(moviesList) {
                 this.$store.commit('movies/showMoreMovies', moviesList);

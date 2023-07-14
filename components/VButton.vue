@@ -23,7 +23,6 @@ button.button(:class="{'ipad': !isDesktop}")
     align-items: flex-start;
     gap: 14px;
 
-    font-family: "Rubik", serif;
     color: #fff;
     font-size: 14px;
     font-weight: 700;

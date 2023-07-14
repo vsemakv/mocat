@@ -58,15 +58,10 @@ export default {
       activeMovie: 'movies/getActiveMovie'
     }),
   },
-  mounted () {
-    // console.log(this.movies);
-  },
   methods: {
     chooseMovie(movie){ 
         this.$store.commit('movies/chooseActiveMovie', movie);
         this.$store.commit('dropdown/openDropdown');
-        // console.log(movie);
-
     },
     formatDuration(duration) {
         const hours = Math.floor(duration / 60);
