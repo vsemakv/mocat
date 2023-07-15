@@ -179,29 +179,6 @@ export default {
                     line-height: 140%;
                 }
             }
-            &--button { 
-                display: flex;
-                padding: 13px 28px 12px 14px;
-                align-items: flex-start;
-                gap: 14px;
-
-                font-family: "Rubik", serif;
-                color: #fff;
-                font-size: 14px;
-                font-weight: 700;
-                line-height: normal;
-
-                border-radius: 2px;
-                background: #DA1617;
-                box-shadow: 2px 2px 4px 0px rgba(61, 61, 61, 0.05);
-                cursor: pointer;
-                transition: all .3s;
-
-                &:hover { 
-                    transition: all .3s;
-                    background: #f02020;
-                }
-            }
         }
         &-people { 
             width: 50%;
