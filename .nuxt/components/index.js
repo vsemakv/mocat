@@ -1,9 +1,9 @@
-export { default as VButton } from '../../components/VButton.vue'
-export { default as VDropdown } from '../../components/VDropdown.vue'
-export { default as VHeader } from '../../components/VHeader.vue'
-export { default as VHero } from '../../components/VHero.vue'
-export { default as VSerialsList } from '../../components/VSerialsList.vue'
-export { default as VSlider } from '../../components/VSlider.vue'
+export const VButton = () => import('../../components/VButton.vue' /* webpackChunkName: "components/v-button" */).then(c => wrapFunctional(c.default || c))
+export const VDropdown = () => import('../../components/VDropdown.vue' /* webpackChunkName: "components/v-dropdown" */).then(c => wrapFunctional(c.default || c))
+export const VHeader = () => import('../../components/VHeader.vue' /* webpackChunkName: "components/v-header" */).then(c => wrapFunctional(c.default || c))
+export const VHero = () => import('../../components/VHero.vue' /* webpackChunkName: "components/v-hero" */).then(c => wrapFunctional(c.default || c))
+export const VSerialsList = () => import('../../components/VSerialsList.vue' /* webpackChunkName: "components/v-serials-list" */).then(c => wrapFunctional(c.default || c))
+export const VSlider = () => import('../../components/VSlider.vue' /* webpackChunkName: "components/v-slider" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {
